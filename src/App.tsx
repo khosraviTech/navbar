@@ -1,3 +1,4 @@
+import { House } from 'lucide-react';
 
 
 function App() {
@@ -5,11 +6,16 @@ function App() {
 
   return (
     <>
-      <div className="grid grid-cols-12 grid-rows-12 h-screen">
-        <div className="col-start-4 row-start-6 col-span-6 row-span-1 border border-green-500  p-2 "></div>
+    <div className="flex items-center justify-center h-screen m-1">
+        <div className="border border-green-500  p-2 ">
+          <div> hello</div>
+          
+
+        </div>
 
       </div>
-      
+  
+
     </>
   )
 }
