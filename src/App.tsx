@@ -1,12 +1,15 @@
 
-import './App.css'
 
 function App() {
 
 
   return (
     <>
-      <h1 className="text-5xl">hello</h1>
+      <div className="grid grid-cols-12 grid-rows-12 h-screen">
+        <div className="col-start-4 row-start-6 col-span-6 row-span-1 border border-green-500  p-2 "></div>
+
+      </div>
+      
     </>
   )
 }
